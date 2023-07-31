@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "lists.h"
+
 /**
  * free_list - free a linked_list
  * @head: list_t list frees when printed
