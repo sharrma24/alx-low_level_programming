@@ -14,13 +14,16 @@ size_t free_listint_safe(listint_t **h)
 	listint_t *temp;
 
 	if (!h || !*h)
-		return (0);
+		return(0); 
+/**
+ * size_t free_listint_safe(listint_t **h)
+ * Return: NULL if there is no loop, or the address
+ */
 
 	while (*h)
 	{
 		diff = *h - (*h)->next;
 		if (diff > 0)
-		size_t len = 0;
 		{
 			temp = (*h)->next;
 			free(*h);
@@ -38,5 +41,5 @@ size_t free_listint_safe(listint_t **h)
 
 	*h = NULL;
 
-	return (len);
+	return (0);
 }
