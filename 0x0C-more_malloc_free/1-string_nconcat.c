@@ -3,11 +3,9 @@
 
 /**
  * *string_nconcat - The returned pointer shall point to a newly allocated space in memory
- * @s1: string to to the end of the file
- * @s2: string to another string
- * @n: amount of bytes from s1 move to s2
+ * if NULL is passed, treat it as an empty string
  *
- * Return: pointer to the returning string
+ * Return: 
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
