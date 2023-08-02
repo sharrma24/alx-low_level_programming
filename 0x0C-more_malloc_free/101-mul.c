@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+#define ERR_MSG "Error"
+
 /**
  * is_digit - checks if a contains a digit or not
  * @s: string to be checked
