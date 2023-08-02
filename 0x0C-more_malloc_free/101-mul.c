@@ -1,15 +1,14 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <stdio.h>
 
 #define ERR_MSG "Error"
 
 /**
- * is_digit - checks if a contains a digit or not
- * @s: string to be checked
+ * is_digit - checks if a string char that is no digit
+ * @s: string to be evaluated
  *
- * Return: 0 , 1 if not Error
+ * Return: 0 if a non-digit is found, 1 otherwise
  */
 int is_digit(char *s)
 {
@@ -26,7 +25,7 @@ int is_digit(char *s)
 
 /**
  * _strlen - returns the length of a string
- * @s: string to evaluate
+ * @s: Evaluates the strings
  *
  * Return: the length of the string
  */
@@ -42,7 +41,7 @@ int _strlen(char *s)
 }
 
 /**
- * errors  handles errors for main
+ * errors - handles errors 
  */
 void errors(void)
 {
@@ -51,9 +50,9 @@ void errors(void)
 }
 
 /**
- * main - multiplies two positive int numbers
+ * main - multiplying two positive int numbers
  * @argc: amount of arguments
- * @argv: arrays
+ * @argv: array of arguments
  *
  * Return: always 0 (Success)
  */
