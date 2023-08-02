@@ -1,6 +1,7 @@
-#include <string.h>
-#include "lists.h"
 #include <stdlib.h>
+#include <string.h>
+#include "lists.h
+
 /**
  * add_node_end - Adding a new node at the end
  * @str: Adding a string 
