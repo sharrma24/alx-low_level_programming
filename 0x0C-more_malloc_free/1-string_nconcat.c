@@ -2,10 +2,12 @@
 #include "main.h"
 
 /**
- * *string_nconcat - The returned pointer shall point to a newly allocated space in memory
- * if NULL is passed, treat it as an empty string
+ * *string_nconcat - concatenates n bytes of a string to newly allocated  string
+ * s1: string to append to
+ *@s2: string to concatenate from
+ * n: number of bytes from s2 to concatenate to s1
  *
- * Return: 
+ * Return: if NULL is passed, treat it as an empty string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
