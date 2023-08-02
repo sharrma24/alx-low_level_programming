@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * *malloc_checked - allocates memory using malloc functionality
+ * if malloc fails, the malloc_checked function should cause normal process termination
  * @b: bytes to be allocated
  *
  * Return: printiong a pointer into the assigned memory
