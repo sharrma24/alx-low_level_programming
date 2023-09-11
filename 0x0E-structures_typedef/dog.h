@@ -7,7 +7,8 @@
  * @age: Secon
  * @owner: Third one
  *
- * Description: Long description
+ * Description: Lon:wq
+ *g description
  */
 struct dog
 {
