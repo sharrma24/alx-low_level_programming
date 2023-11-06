@@ -1,4 +1,3 @@
-4-sum.h
 #ifndef SUM_H
 #define SUM_H
 
