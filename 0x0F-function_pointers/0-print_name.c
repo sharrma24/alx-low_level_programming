@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * print_name - print name using pointer to function
- * @name: string  adds
- * @f: pointe
+ * @name: string to added
+ * @f: pointer to functions
  * Return: nothing
  **/
 void print_name(char *name, void (*f)(char *))
